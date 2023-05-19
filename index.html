@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <h1>CALCULATOR</h1>
+    <input type="text" readonly id = "pressed" style= "width:492px; height:100px" ><br><br>
+    <div class="calculator">
+    <button onclick="getButtonText(this)" class="number">1</button>
+    <button onclick="getButtonText(this)" class="number">2</button>
+    <button onclick="getButtonText(this)" class="number">3</button>
+    <button onclick="getButtonText(this)" class= "operator">+</button>
+    <button onclick="getButtonText(this)" class="number">4</button>
+    <button onclick="getButtonText(this)" class="number">5</button>
+    <button onclick="getButtonText(this)" class="number">6</button>
+    <button onclick="getButtonText(this)" class= "operator">-</button>
+    <button onclick="getButtonText(this)" class="number">7</button>
+    <button onclick="getButtonText(this)" class="number">8</button>
+    <button onclick="getButtonText(this)" class="number">9</button>
+    <button onclick="getButtonText(this)" class= "operator">*</button>
+    <button onclick="getButtonText(this)" class="number">0</button>
+    <button onclick="erase()" class="erase">AC</button>
+    <button onclick="handleEqualsTo()" class= "operator">=</button>
+    <button onclick="getButtonText(this)" class= "operator">/</button>
+    </div>
+    <script src="index.js"></script>
+    
+    
+</body>
+</html>
